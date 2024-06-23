@@ -1,0 +1,204 @@
+.landingPage{
+    height: 100vh;
+    width: 100%;
+    background: var(--Primary-50, #EFF7FF);
+}
+
+.landingPageContainer{
+    height: 95%;
+    width: 98%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.headerRow{
+    width: 100%;
+    color: var(--Grey-600, #4F5B7A);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contentSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.primaryBtn{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    height: 36px;
+    min-width: 110px;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    background: var(--Primary-500, #219EBC);
+    box-shadow: 4px 6px 16px 0px rgba(60, 185, 212, 0.16);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+  }
+
+  
+.secondaryBtn{
+    cursor: pointer;
+    border: none;
+    display: flex;
+    height: 36px;
+    min-width: 110px;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 6px;
+    border: 1px solid var(--Primary-500, #219EBC);
+    background: var(--White, #FFF)var;
+    box-shadow: 4px 6px 16px 0px rgba(60, 185, 212, 0.16);
+    color: var(--Primary-500, #219EBC);
+    text-align: center;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+  }
+  
+  
+
+.buttonRow{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.tableContainer{
+    width: 100%;
+}
+
+/* table css */
+
+.tableStructure {
+    border: 1px solid var(--Neutral-Grey-200, #D6DAE1); 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+.tableStructure th {
+    color: var(--Neutral-Grey-800, #3B4251);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    background: var(--Neutral-Grey-200, #D6DAE1);
+    padding: 6px 10px;
+    border-bottom: 1px solid #ECEFF5;
+    text-align: left;
+}
+
+.tableStructure td {
+    padding: 6px 10px;
+    color: var(--Neutral-Grey-950, #23272E);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.tableStructure tbody tr:not(:last-child) {
+    border-bottom: 1px solid var(--Neutral-Grey-200, #D6DAE1);
+}
+
+/* table Structure end here */
+
+
+.dialogTitle{
+    height: 12px;
+    display: flex;
+    align-items: center;
+    background: #219EBC;
+    justify-content: space-between;
+}
+.dialogTitleTxt{
+    color: var(--White, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.dialogContainer{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.dialogInputBox{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inputLabel{
+    color: var(--Grey-950, #23252E);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .inputLabelB{
+    color: var(--Grey-700, #464A5E);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+  }
+  
+  .inputLabelMandatory{
+      color: var(--Red-500, #E72755);
+      font-family: "Inter";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+  
+  .inputField {
+    width: 94%;
+    display: flex;
+    height: 28px;
+    padding: 1% 3%;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--Grey-400, #898FA7);
+    background: var(--White, #FFF);
+    color: var(--Grey-950, #23252E);
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
