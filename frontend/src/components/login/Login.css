@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.commonBackgroundLogin{
+    background: var(--bg, #FAFCFF);
+}
+.loginPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.loginImageContainer{
+    height: 100%;
+    width:55%;
+    background: url(../../Assets/Images/loginPageImg.png)lightgray 50% / cover no-repeat;
+    background-color: #5454eb;
+}
+
+.logingContentContainer{
+    height: 100%;
+    width: 45%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContentSection{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.loginContentMainBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    align-self: stretch;
+}
+
+.loginContentCopyRightBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #8E94A0;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.loginContentInputSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22px;
+    align-self: stretch;
+}
+
+.inputSectionHeaderBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.inputSectionFieldsBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.inputSectionFieldsRow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+.inputFieldHeaderTxt{
+    color: var(--Neutral-Grey-950, #23272E);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.passwordInputContainer {
+    position: relative;
+    width: 100%;
+}
+
+.eyeButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.eyeIcon {
+    width: 20px;
+    height: auto;
+}
+
+.inputFieldBox{
+    width: 92%;
+    display: flex;
+    padding: 2% 4%;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 5px;
+    border: 1px solid var(--Neutral-Grey-300, #B1B9C8);
+    background: var(--White, #FFF);
+    color: var(--Neutral-Grey-400, #8794A9);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inputSectionForgetBox{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.inputSectionHeaderTxt{
+    color: var(--Primary-700, #1C5BD9);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.inputSectionSubHeaderTxt{
+    color: var(--Neutral-Grey-950, #23272E);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.inputSectionForgetTxt{
+    cursor: pointer;
+    color: var(--Primary-700, #1C5BD9);
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.loginContentButtonSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.loginBtnBox{
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--Primary-700, #1C5BD9);
+    box-shadow: 16px 20px 30px 0px rgba(0, 63, 141, 0.10);
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.loginOrBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.orTxt{
+    color: var(--Grey1, #132740);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.lineSpan{
+    width: 48%;
+    height: 2px;
+    background: var(--Grey4, #DFE7F7);
+}
+
+.loginGoogleBox{
+    cursor: pointer;
+    display: flex;
+    width: 96%;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--Blue3, #407FFC);
+    background: var(--White, #FFF);
+    box-shadow: 16px 20px 30px 0px rgba(0, 63, 141, 0.10);
+}
+
+.googleTxt{
+    color: var(--Text1, #292B37);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
